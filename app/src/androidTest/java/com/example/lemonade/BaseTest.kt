@@ -61,7 +61,7 @@ open class BaseTest {
      * Clicks the lemon tree image.
      */
     fun pickLemon() {
-        onView(withDrawable(R.drawable.lemon_tree))
+        onView(withDrawable(R.drawable.ic_launcher_lemonade_foreground))
             .perform(click())
     }
 
